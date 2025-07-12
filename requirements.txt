@@ -1,0 +1,92 @@
+# 核心机器学习库
+xgboost>=1.7.0
+scikit-learn>=1.3.0
+lightgbm>=3.3.0
+catboost>=1.2.0
+
+# 数据处理库
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 金融数据库
+yfinance>=0.2.0
+tushare>=1.2.0
+akshare>=1.12.0
+baostock>=0.8.8
+
+# 技术指标库
+talib>=0.4.0
+ta>=0.10.0
+pandas-ta>=0.3.0
+
+# 数据库
+sqlalchemy>=2.0.0
+pymongo>=4.0.0
+redis>=4.5.0
+sqlite3
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+bokeh>=3.2.0
+
+# 回测框架
+backtrader>=1.9.0
+zipline-reloaded>=3.0.0
+vectorbt>=0.25.0
+
+# 优化库
+cvxpy>=1.3.0
+cvxopt>=1.3.0
+scipy>=1.10.0
+
+# 并行计算
+joblib>=1.3.0
+multiprocessing
+concurrent.futures
+
+# 配置管理
+pyyaml>=6.0
+configparser
+python-dotenv>=1.0.0
+
+# 日志和监控
+loguru>=0.7.0
+tqdm>=4.65.0
+psutil>=5.9.0
+
+# 时间处理
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# 网络请求
+requests>=2.31.0
+urllib3>=2.0.0
+
+# 数据验证
+pydantic>=2.0.0
+marshmallow>=3.20.0
+
+# 测试框架
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# 开发工具
+jupyter>=1.0.0
+ipython>=8.14.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# 性能分析
+memory-profiler>=0.61.0
+line-profiler>=4.1.0
+py-spy>=0.3.0
+
+# 其他工具
+click>=8.1.0
+rich>=13.5.0
+typer>=0.9.0

@@ -1,43 +1,102 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Folder config file
-Desktop.ini
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Windows shortcuts
-*.lnk
+# Data files (保护敏感数据)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.pkl
+data/models/*.pkl
+data/models/*.joblib
+*.h5
 
-# =========================
-# Operating System Files
-# =========================
+# Logs
+logs/*.log
+*.log
 
-# OSX
-# =========================
-
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+ehthumbs.db
+Thumbs.db
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# API Keys and Secrets
+.env
+.env.local
+.env.*.local
+config/secrets.py
+**/secrets.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Documentation builds
+docs/_build/
+site/
